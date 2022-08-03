@@ -1,0 +1,34 @@
+@import '../variables';
+.faq {
+    background-color: $color-faq-background;
+    
+    &-title {
+        font-size: 2.2rem;
+        font-weight:  300;
+        line-height: 1.2rem;
+    
+        @media screen and (min-width: 902px) {
+            font-size: 3.5rem;
+        }
+    }
+
+    &_clickable {
+        cursor: pointer;
+    }
+
+    }
+
+
+div.faq_accordion {
+    --bs-accordion-bg: #443a50;
+    --bs-accordion-border-color : #372f42;
+    --bs-accordion-color: #FFF;
+    --bs-accordion-btn-color: #FFF;
+    --bs-accordion-active-color: #FFF;
+    --bs-accordion-active-bg: unset;
+    --bs-accordion-btn-bg: #372f42;
+    --bs-accordion-btn-icon-width: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-bg: #372f42;
+
+}

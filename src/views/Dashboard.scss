@@ -1,0 +1,29 @@
+@import '../variables';
+
+.dashboard {
+        
+    &_user-avatar {
+        position: relative;
+        
+        svg.svg-inline--fa:last-of-type {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%)
+        }
+    }
+
+    &_button {
+        --bs-btn-bg: none;
+        --bs-btn-border-color: none;
+        --bs-btn-hover-bg: #7b34b1;
+        --bs-btn-focus-shadow-rgb: none;
+        color: $color-primary;
+        background-color: none;
+        &:hover, &--active {
+            color: #FFF;
+            background-color: $color-primary;
+        }
+        
+    }
+}

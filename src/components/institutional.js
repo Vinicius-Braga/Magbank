@@ -5,7 +5,7 @@ import { Container,Row,Col, Button} from
 import IconText from './IconText'
 import './institutional.scss'
 
-const Institutional = () => (
+const Institutional = ({handleCreateAcc}) => (
     <section className="institutional text-light py-5">
         <Container>
             <Row>
@@ -29,7 +29,7 @@ const Institutional = () => (
                    Transações mais seguras
                 </IconText>
 
-                  <Button variant="outline-light" className="mt-5">Abra sua conta</Button>
+                  <Button variant="outline-light" className="mt-5" onClick={handleCreateAcc}>Abra sua conta</Button>
              </Col>
 
             </Row>
