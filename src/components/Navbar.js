@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { Navbar, Nav,  Container, ButtonGroup, Button, NavDropdown} from "react-bootstrap"
 import './Navbar.scss';
 import logo from '../assets/logo.svg';
@@ -43,6 +43,7 @@ const Navigation = ({handleCreateAcc}) => (
     </ButtonGroup>
   </Navbar.Collapse>
 </Container>
-</Navbar>);
+</Navbar>
+);
 
 export default Navigation;
